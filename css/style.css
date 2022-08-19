@@ -1,0 +1,39 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    background: black;
+}
+
+#loading {
+    overflow: hidden;
+    margin: 0;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 100%;
+}
+
+#loading-content {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    bottom: 50%;
+    opacity: 100%;
+}
+
+#debug-corner-text {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 100%;
+    text-align: left;
+    z-index: 200;
+    white-space: pre-wrap;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
