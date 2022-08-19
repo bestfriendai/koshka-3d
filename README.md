@@ -1,4 +1,4 @@
-## Bengine JS
+## Bepto Engine JS
 
 Created with Python 3.10 and Pygame 2.1.2
 
