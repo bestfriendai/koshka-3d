@@ -20,3 +20,7 @@ Open multiple tabs with the same provided link to experience multiplayer!
 - Look around with mouse.
 - Move with `W` `A` `S` `D`.
 - Fly up and down with `Q` and `E`.
+
+----------
+
+Created with Javascript, Three JS & Rapier3D.
