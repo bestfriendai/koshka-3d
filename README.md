@@ -1,6 +1,6 @@
 ## Bepto Engine JS
 
-Created with Python 3.10 and Pygame 2.1.2
+A 3D online multiplayer javascript game engine.
 
 ## Setup & Run
 
