@@ -21,15 +21,13 @@ export class Map {
         this._sun.position.set(-10, 100, -10);
         this._sun.lookAt(0, 0, 0);
         this._axesHelper = new AxesHelper();
-        this._sunHelper = new DirectionalLightHelper(this._sun);
-        this._axesHelper.visible = this._sunHelper.visible = Settings.game.debug
+        this._axesHelper.visible = Settings.game.debug
             ? true
             : false;
         Engine.scene.add(
             this._ambientLight,
             this._sun,
             this._axesHelper,
-            this._sunHelper
         );
         document.addEventListener(`onClientJoinedRoom`, (e) =>
             this.onClientJoinedRoom(e.detail.id, e.detail.room)
@@ -53,7 +51,6 @@ export class Map {
         this._ambientLight.dispose();
         this._sun.dispose();
         this._axesHelper.dispose();
-        this._sunHelper.dispose();
         Engine.unpause();
         Client.socket.emit(`requestJoinRoom`, `lobby`);
     }
