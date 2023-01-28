@@ -1,7 +1,3 @@
-## Notice
-
-This is for educational purposes only and will no longer be updated or maintained.
-
 ## Koshka 3D
 
 A 3D online multiplayer javascript game engine.
